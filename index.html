@@ -23,6 +23,172 @@
                 <h1 id="title" class="form_title">Campsite Feedback Form</h1>
             </header> <!-- .header -->
 
+            <div class="form-container">
+
+                <p id="description" class="form-description">
+                    Thank you for taking the time to provide feedback on your stay.
+                </p> <!-- .form-description -->
+
+                <form action="" id="survey-form" class="survey-form">
+
+                    <div class="form-group">
+                        <label for="name" id="name-label" class="form-label">Name</label>
+                        <input 
+                            type="text" 
+                            name="name" 
+                            id="name"
+                            class="form-control" 
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div> <!-- .form-group-->
+
+                    <div class="form-group">
+                        <label for="email" id="email-label" class="form-label">Email</label>
+                        <input 
+                            type="email" 
+                            name="email" 
+                            id="email"
+                            class="form-control"  
+                            placeholder="Enter your email"
+                            required
+                        >
+                    </div> <!-- .form-group-->
+
+                    <div class="form-group">
+                        <label for="number" id="number-label" class="form-label">Days Stayed</label>
+                        <input 
+                            type="number" 
+                            name="days stayed" 
+                            id="number"
+                            min="1"
+                            max="7" 
+                            class="form-control" 
+                            placeholder="Enter # of days"
+                            required
+                        >
+                    </div> <!-- .form-group-->
+
+                    <div class="form-group">
+                        <p class="form-question">Which option best describes your stay on the island?</p>
+                        <select name="rating" id="dropdown" class="dropdown">
+                            <option disabled selected value>Select an option</option>
+                            <option value="outstanding">Oustanding</option>
+                            <option value="splendid">Splendid</option>
+                            <option value="satisfactory">Satisfactory</option>
+                            <option value="terrible">Terrible</option>
+                            <option value="abyssmal">Abyssmal</option>
+                        </select>
+                    </div> <!-- .form-group-->
+
+                    <div class="form-group form-list">
+                        <p class="form-question">Would you recommend this campsite to a friend?</p>
+                        <label class="radio-label">
+                            <input 
+                                type="radio" 
+                                name="user-recommend" 
+                                value="yes"
+                                class="input-radio"
+                                checked
+                            >
+                        Yes</label> <!-- .radio-label-->
+
+                        <label class="radio-label">
+                            <input 
+                                type="radio" 
+                                name="user-recommend" 
+                                value="maybe"
+                                class="input-radio"
+                            >
+                        Maybe</label> <!-- .radio-label-->
+
+                        <label class="radio-label">
+                            <input 
+                                type="radio" 
+                                name="user-recommend" 
+                                value="no"
+                                class="input-radio"
+                            >
+                        No</label> <!-- .radio-label-->
+                            
+                    </div> <!-- .form-group-->
+
+                    <div class="form-group form-list">
+
+                        <p class="form-question">What activities did you partake in during your stay <span class="multi-option">(Check all that apply)</span></p>
+
+                        <label class="checkbox-label">
+                            <input 
+                                type="checkbox"
+                                name="activity"
+                                value="fishing"
+                                class="input-checkbox"    
+                            >    
+                        Fishing</label>
+
+                        <label class="checkbox-label">
+                            <input 
+                                type="checkbox"
+                                name="activity"
+                                value="catch bugs"
+                                class="input-checkbox"    
+                            >    
+                        Catch bugs</label>
+
+                        <label class="checkbox-label">
+                            <input 
+                                type="checkbox"
+                                name="activity"
+                                value="dig for fossils"
+                                class="input-checkbox"    
+                            >    
+                        Dig for fossils</label>
+
+                        <label class="checkbox-label">
+                            <input 
+                                type="checkbox"
+                                name="activity"
+                                value="watch a meteor shower"
+                                class="input-checkbox"    
+                            >    
+                        Watch a meteor shower</label>
+
+                        <label class="checkbox-label">
+                            <input 
+                                type="checkbox"
+                                name="activity"
+                                value="visit the museum"
+                                class="input-checkbox"    
+                            >    
+                        Visit the museum</label>
+
+                    </div> <!-- .form-group -->
+
+                    <div class="form-group">
+
+                        <p class="comment-suggestions">Any comments or suggestions?</p>
+                        <textarea
+                            name="comment"
+                            id="comments"
+                            class="input-textarea"
+                            placeholder="Enter your comment here..."
+                        ></textarea>
+
+                    </div> <!-- .form-group -->
+
+
+                    <div class="form-group button-wrapper">
+                        <button type="submit" id="submit" class="submit-button">Submit</button>
+                    </div> <!-- .form-group -->
+
+                    <p class="signature">
+                        Code & Design by <a href="https://github.com/jemalmazar" target="_blank">Jeremiah</a>
+                    </p>
+
+                </form> <!-- .survery-form -->
+
+            </div> <!-- .form-container -->
+
         </div> <!-- .container -->
 
     </body>
