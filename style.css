@@ -160,7 +160,7 @@ body {
     padding: 0.1em 0.75em;
     border-radius: 50px;
     position: relative;
-    bottom: 2%;
+    top: 5px;
     right: 2%;
 }
 
