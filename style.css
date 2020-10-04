@@ -306,7 +306,7 @@ select:focus,
     /* Main */
 
     body {
-        background: repeat top right/75% url("/images/ac_leaf_pattern.png");
+        background: repeat top right/75% url("https://i.postimg.cc/PrGSpK5X/ac-leaf-pattern.png");
     }
 
     /* Header */
@@ -335,7 +335,7 @@ select:focus,
     /* Main */
 
     body {
-        background: repeat top right/25% url("/images/ac_leaf_pattern.png");
+        background: repeat top right/25% url("https://i.postimg.cc/PrGSpK5X/ac-leaf-pattern.png");
     }
 
     /* Form */
