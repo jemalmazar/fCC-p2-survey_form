@@ -107,7 +107,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: repeat top right/100% url("/images/ac_leaf_pattern.png");
+    background: repeat top right/100% url("https://i.postimg.cc/PrGSpK5X/ac-leaf-pattern.png");
 }
 
 /* Header */
