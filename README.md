@@ -1,4 +1,4 @@
-# freeCodeCamp: Responsive Web Design Project 2 - Build a Survey Form
+# freeCodeCamp: Responsive Web Design Project 2 - Survey Form
 
 View deployed web page at: https://jemalmazar.github.io/fCC-p2-survey_form/
 
