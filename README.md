@@ -1,4 +1,4 @@
-# freeCodeCamp Responsive Web Design Project 2 - Build a Survey Form
+# freeCodeCamp: Responsive Web Design Project 2 - Build a Survey Form
 
 View deployed web page at: https://jemalmazar.github.io/fCC-p2-survey_form/
 
@@ -8,7 +8,7 @@ An Animal Crossing inspired single page form with various input types. Users are
 
 **Tools & Methods Used**
 
-The following were used to build this page:
+The following were used to build and design this project:
 
 - HTML5
 - CSS3
