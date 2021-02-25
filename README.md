@@ -2,13 +2,11 @@
 
 View deployed web page at: https://jemalmazar.github.io/fCC-p2-survey_form/
 
-**Project Description**
+### Project Description
 
 An Animal Crossing inspired single page form with various input types. Users are asked to give feedback on their stay at the campsite.
 
-**Tools & Methods Used**
-
-The following were used to build and design this project:
+### Tools & Methods Used
 
 - HTML5
 - CSS3
@@ -16,12 +14,12 @@ The following were used to build and design this project:
 - [Gulp](https://gulpjs.com/) (browser-sync, gulp-clean-css, gulp-rename)
 - [Figma](https://www.figma.com/)
 
-**Little Things I Learned**
+### Little Things I Learned
 
 - offset an input's label using `position: relative` in conjunction with direction properties
 - styling an input's placeholder text using the `::placeholder` pseudo-element
 
-**Project Epilogue**
+### Project Epilogue
 
 I chose to build this web form with an Animal Crossing theme after purchasing New Horizons to help pass the time during the COVID-19 lockdown. It ate up a little too much time :stuck_out_tongue_winking_eye:
 
