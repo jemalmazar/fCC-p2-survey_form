@@ -282,15 +282,15 @@ select:focus,
 --------------------------------------------------------------*/
 
 
-@media (min-width: 360px) {
+@media (min-width: 22.5em) {
 
     .container {
-        max-width: 360px
+        max-width: 330px
     }
 
 }
 
-@media (min-width: 760px) {
+@media (min-width: 43em) {
     
     .container {
         max-width: 540px;
@@ -319,7 +319,7 @@ select:focus,
 
   }
 
-@media (min-width: 1200px) {
+@media (min-width: 62em) {
     
     .container {
         max-width: 720px;
